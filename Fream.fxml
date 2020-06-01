@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane id="AnchorPane" prefHeight="414.0" prefWidth="600.0" style="-fx-background-color: #10bbeb;" xmlns="http://javafx.com/javafx/8.0.171" xmlns:fx="http://javafx.com/fxml/1" fx:controller="lab.FreamController">
+   <children>
+      <Button layoutX="83.0" layoutY="201.0" mnemonicParsing="false" onAction="#buttonBookHandel" stylesheets="@Styles.css" text="Books management" />
+      <Button layoutX="374.0" layoutY="201.0" mnemonicParsing="false" onAction="#buttonBorrowerHandel" stylesheets="@Styles.css" text="Borrowers management" />
+      <Button layoutX="83.0" layoutY="298.0" mnemonicParsing="false" onAction="#buttonBorrBhandel" stylesheets="@Styles.css" text="Managing borrowed books" />
+      <Button layoutX="374.0" layoutY="298.0" mnemonicParsing="false" onAction="#buttonUserHandel" stylesheets="@Styles.css" text="Users management" />
+      <Label layoutX="107.0" layoutY="59.0" text="Library management system" textFill="#e40505">
+         <font>
+            <Font name="Bell MT Italic" size="37.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

@@ -1,0 +1,18 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 31/05/2020, 12:17:30 ص
+    Author     : compulife
+*/
+
+.button{
+    -fx-text-fill: white;
+    -fx-background-color: linear-gradient(#d115a5,#bf32cf);
+    
+}
+.button:hover{
+    -fx-background-color: linear-gradient(#eb231c,#5e2dcf);
+}
